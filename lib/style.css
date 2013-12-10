@@ -1,0 +1,22 @@
+body{
+	background-image: url(/lib/img/bg.jpg)
+}
+.container{
+	width: 75%;
+	margin: auto;
+}
+.headerimage{
+	width:25%;
+	margin: auto;
+}
+.contentbox{
+	margin-top: -32px;
+	background-color: gray;
+	width: auto;
+	border: 2px solid;
+	border-radius: 16px;
+	border-color: black;
+	padding: 4px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
