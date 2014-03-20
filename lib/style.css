@@ -1,6 +1,36 @@
 body{
 	background-image: url(/lib/img/bg.jpg)
 }
+.dogeimg{
+	display: block;
+	max-width: 95%;
+	min-width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dogeoutcontainer{
+	display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    position: relative;
+    left: 50%;
+}
+.dogecontainer{
+	position: relative;
+    left: -50%;
+    margin-top: 16px;
+	/*vertical-align: middle;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;*/
+	padding: 16px;
+	text-align: center;
+	border: 2px solid;
+	border-radius: 8px;
+	border-color:#c4a150;
+	background-color: gray;
+}
 .container{
 	width: 75%;
 	margin: auto;
@@ -11,11 +41,13 @@ body{
 }
 .contentbox{
 	margin-top: -32px;
-	background-color: gray;
 	width: auto;
+	/*
+	background-color: gray;
 	border: 2px solid;
 	border-radius: 16px;
 	border-color: black;
+	*/
 	padding: 4px;
 	padding-left: 5%;
 	padding-right: 5%;
