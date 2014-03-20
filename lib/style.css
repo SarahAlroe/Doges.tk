@@ -34,6 +34,7 @@ body{
 .container{
 	width: 75%;
 	margin: auto;
+	overflow: hidden;
 }
 .headerimage{
 	width:25%;
