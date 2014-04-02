@@ -14,10 +14,11 @@
 				<?php
 				$dogedir="lib/doges/";
 				foreach (glob($dogedir."*.{jpg,png,gif}", GLOB_BRACE) as $filename) {
-					echo "<div class='dogeoutcontainer'><div class='dogecontainer'>";
 					$explodefile=explode(".", $filename);
 					$basefile=$explodefile[0];
-					echo "<img class='dogeimg' alt='".$filename."' src='".$filename."'/>";
+					$purefilename=end (explode("/", $basefile));
+					echo "<div class='dogeoutcontainer'><div class='dogecontainer' id='".$purefilename."'>";
+					echo "<img class='dogeimg' alt='".$purefilename."' src='".$filename."'/>";
 					if(file_exists($basefile.".txt")){
 						echo "<br />";
 						include $basefile.".txt";
