@@ -12,7 +12,21 @@
 			<div class="contentbox">
 				
 				<?php
+				$prioridogedir="lib/doges/prioritised/";
 				$dogedir="lib/doges/";
+				foreach (glob($prioridogedir."*.{jpg,png,gif}", GLOB_BRACE) as $filename) {
+					$explodefile=explode(".", $filename);
+					$basefile=$explodefile[0];
+					$purefilename=end (explode("/", $basefile));
+					echo "<div class='dogeoutcontainer'><div class='dogecontainer' id='".$purefilename."'>";
+					echo "<img class='dogeimg' alt='".$purefilename."' src='".$filename."'/>";
+					if(file_exists($basefile.".txt")){
+						echo "<br />";
+						include $basefile.".txt";
+						echo "<br />";
+					}
+					echo "</div></div><br />";
+				}
 				foreach (glob($dogedir."*.{jpg,png,gif}", GLOB_BRACE) as $filename) {
 					$explodefile=explode(".", $filename);
 					$basefile=$explodefile[0];
