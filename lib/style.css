@@ -39,6 +39,13 @@ body{
 .headerimage{
 	width:35%;
 	margin: auto;
+	transition-duration: 2s;
+	-webkit-transition-duration: 2s;
+}
+.headerimage:hover{
+	width: 37.5%;
+	transition-duration: 0.75s;
+	-webkit-transition-duration: 0.75s;
 }
 .contentbox{
 	margin-top: -32px;

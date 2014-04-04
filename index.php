@@ -8,7 +8,7 @@
 	<body>
 		<div class="container">
 			<div class="headerimage">
-			<img style="width: 100%" src="/lib/img/Doges.Tk.png"></div>
+			<a href="http://Doges.tk"><img style="width: 100%" src="/lib/img/Doges.Tk.png"></div></a>
 			<div class="contentbox">
 				
 				<?php
