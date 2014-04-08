@@ -31,6 +31,8 @@ body{
 	border-color:#c4a150;
 	background-color: gray;
 	background-image: url(/lib/img/doge_bg.png);
+	-webkit-box-shadow: 0 0 7.5px 0 #666029;
+	box-shadow: 0 0 7.5px 0 #666029;
 }
 .container{
 	width: 75%;
