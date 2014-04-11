@@ -1,4 +1,5 @@
 body{
+	background-color: #1c1819;
 	background-image: url(/lib/img/bg.jpg);
 	font-family: "Comic Sans MS"
 }
@@ -30,7 +31,7 @@ body{
 	border: 2px solid;
 	border-radius: 8px;
 	border-color:#c4a150;
-	background-color: gray;
+	background-color: #656565;
 	background-image: url(/lib/img/doge_bg.png);
 	-webkit-box-shadow: 0 0 7.5px 0 #666029;
 	box-shadow: 0 0 7.5px 0 #666029;
