@@ -1,7 +1,7 @@
 body{
 	background-color: #1c1819;
 	background-image: url(/lib/img/bg.jpg);
-	font-family: "Comic Sans MS"
+	font-family: "Comic Sans MS";
 }
 .dogeimg{
 	display: block;
@@ -35,7 +35,7 @@ body{
 	background-image: url(/lib/img/doge_bg.png);
 	-webkit-box-shadow: 0 0 7.5px 0 #666029;
 	box-shadow: 0 0 7.5px 0 #666029;
-	font-family: "Comic Sans MS"
+	font-family: "Comic Sans MS";
 }
 .container{
 	width: 75%;
